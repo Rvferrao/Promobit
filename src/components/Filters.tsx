@@ -32,7 +32,7 @@ export const Filters = () => {
   return (
     <div className="w-screen px-4 lg:px-0 max-w-[1110px]">
       <div className="flex gap-3 lg:justify-center flex-wrap">
-        {genres.map((genre) => (
+        {genres?.map((genre) => (
           <FilterItem key={genre.id} filterName={genre.name} id={genre.id} />
         ))}
       </div>

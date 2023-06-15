@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#progress {
+  transform: rotate(-90deg);
+}
+
+circle {
+  stroke-dashoffset: 0;
+  stroke-width: 8%;
+  fill: none;
+}
+
+.bg {
+  stroke: crimson;
+  opacity: 0.3;
+  fill: crimson;
+}
+
+#progress .indicator {
+  stroke: #14ff00;
+  stroke-linecap: round;
+  border-radius: 10px;
+}
