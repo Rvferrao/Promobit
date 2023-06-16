@@ -41,7 +41,7 @@ O desafio consistia em criar uma aplicação frontend em React que exibisse uma 
 Para clonar o projeto:
 
 ```bash
-  git clone: https://github.com/GabrielMarcC/Case-Promobit
+  git clone: https://github.com/Rvferrao/Promobit/
 ```
 
 start da aplicação:
