@@ -19,7 +19,10 @@ export const ChartRating = (props: ChartRatingProps) => {
           className="indicator"
           style={{
             strokeDasharray: 100,
-            strokeDashoffset: 100 - (props.vote_average * 100) / 10,
+            strokeDashoffset:
+              props.vote_average >= 0 && props.vote_average <= 10
+                ? 100 - props.vote_average * 10
+                : 0,
           }}
         />
       </svg>
